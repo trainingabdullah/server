@@ -5,4 +5,4 @@ const PORT = process.env.PORT || 5000
 app.listen(PORT, () => console.log(`Example app listening on port ${PORT}!`))
 
 console.log(process.env.PORT)
-app.get('/', (req, res) => res.send({hi:'Hellor World!'}))
+app.get('/', (req, res) => res.send({hi:'Hello World!'}))
